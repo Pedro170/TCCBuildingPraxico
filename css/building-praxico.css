@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    background: url(/img/BUILDING-PRÁXICO.png) no-repeat;
+}
+
+#logo-navbar {
+    position: absolute;
+    margin-top: 4px;
+    max-width: 90px;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    left: 100px;
+}
+
+
+/*Menu*/
+
+.menu-navegacao {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu-navegacao ul {
+    background-color: #393E41;
+    float: none;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-navegacao ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.menu-navegacao ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.menu-navegacao ul li a:hover {
+    color: #44BBA4;
+}
+
+
+/*Cabeçalho*/
+
+#cabecalho {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -10px;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-navegacao ul {
+        display: grid;
+        float: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
+.banner {
+    background: url("../img/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -35px;
+    width: 100%;
+    height: 600px;
+}
+
+#logo {
+    position: absolute;
+    margin-top: 180px;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    left: 60px;
+}
+
+
+/* Inicio das Imagens*/
+
+#img01 {
+    position: relative;
+    margin-top: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    left: 800px;
+    z-index: 1;
+}
+
+#img01 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img01:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#img02 {
+    position: absolute;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: 155px;
+    left: 420px;
+}
+
+#img02 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img02:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#img03 {
+    position: absolute;
+    max-width: 250px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: 175px;
+    left: 850px;
+}
+
+#img03 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img03:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#img04 {
+    position: relative;
+    top: 260px;
+    margin: -70px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    left: 420px;
+}
+
+#img04 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img04:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#img05 {
+    position: relative;
+    margin: -60px;
+    top: 250px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    left: 740px;
+}
+
+#img05 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img05:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+/*Fim das Imagens*/
+
+#texto {
+    position: absolute;
+    margin-top: -350px;
+    left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    text-align: justify;
+
+  
+}
+
+#texto a {
+    text-decoration: none;
+    color: black;
+}
+
+#texto h3 {
+    background-color: #393E41;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    width: 350px;
+
+}
+
+#texto p {
+    text-align: center;
+}
+
+
+/*Sustentabilidade*/
+
+#texto-sustentabilidade {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    top: 260%;
+    left: 200px;
+}
+
+
+/*Rodapé*/
+
+
+footer#rodape img {
+    margin: 80px auto auto 60px;
+    max-width: 250px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    
+}
+
+footer#rodape {
+    clear: both;
+    background-color: #393E41;
+    height: 350px;
+    margin-top: 80px;
+}
+
+footer#rodape p {
+    text-align: center;
+    color: #44BBA4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer#rodape {
+    list-style: none;
+    color: #44BBA4;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: #44BBA4;
+}
+
+footer#rodape ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #44BBA4;
+    margin: -160px auto auto 400px;
+    border-left: solid 1px #44BBA4;
+    padding-left: 50px;
+}
+
+footer#rodape ol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    color: #44BBA4;
+    margin: -190px auto auto 700px;
+    border-left: solid 1px #44BBA4;
+    margin-right: 50px;
+    padding-left: 50px;
+}
+
+footer#rodape ol a:hover {
+    color: #FFFFFF;
+}
+
+footer#rodape ul a:hover {
+    color: #FFFFFF;
+}
+
+#foto {
+    position: relative;
+    left: -230px;
+    float: right;
+    margin-right: -200px;
+    top: -253px;
+    padding: 2px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    padding-left: 90%;
+}
+
+.redes-sociais {
+    color: #44BBA4;
+    font-size: 20px;
+    margin: 0 5px 0 5px;     
+    
+}
+
+.redes-sociais:hover {
+    color: #fff
+}
+
+
+/*Fim do rodapé*/

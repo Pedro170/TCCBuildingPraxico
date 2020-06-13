@@ -13,7 +13,7 @@ Trabalho de Conclusão de Curso desenvolvida para o curso <i>Talentos do Futuro 
 <p>Para clonar o repósitorio, você deve abrir o <b>terminal</b> ou <b>git bash</b> na pasta que deseja adicionar o projeto. Após isso execute a linha de comando:</p>
 
 ```shell
-git clone https://github.com/midia-lima/TCCBuildingPraxico.git
+git clone https://github.com/Pedro170/TCCBuildingPraxico.git
 ```
 
 <h2>Abrindo os Arquivos</h2>
@@ -23,7 +23,7 @@ git clone https://github.com/midia-lima/TCCBuildingPraxico.git
 
 |<img src="img/joaopedro.jpg" width=115 > <br> <sub>|<img src="img/midialima.jpg" width=115 > <br> <sub>|
 | :---: | :---: |
-|<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-258677197/">João Pedro</a>|<a href="https://github.com/midia-lima">Midiã Lima</a>|
+|<a href="https://github.com/Pedro170">João Pedro</a>|<a href="https://github.com/midia-lima">Midiã Lima</a>|
 
 <h2>Confira o Resultado</h2>
-https://midia-lima.github.io/TCCBuildingPraxico/
+https://pedro170.github.io/TCCBuildingPraxico/
